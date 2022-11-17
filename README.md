@@ -55,3 +55,26 @@ done
 ```
 
 ![5](yl5.png)
+
+
+
+**Ülesanne 6**
+
+```
+#!/bin/bash
+
+aste () {
+    a=$1
+    b=5
+    while [ $b -gt 1 ]
+    do
+        a=$(($a*$1))
+        b=$((b-1))
+    done
+    echo "$1^$2 = $a"
+}
+
+echo $(aste 9 5)
+```
+
+![6](yl6.png)
